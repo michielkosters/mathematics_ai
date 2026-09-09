@@ -1,0 +1,73 @@
+{
+  "verified": true,
+  "n": 10,
+  "degree": 3,
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      7,
+      8
+    ]
+  ],
+  "vertex": 1,
+  "p": "2/5",
+  "time": 10,
+  "derivative_lower_bound": "9/10000000",
+  "series_degree": 400,
+  "novelty": "Unestablished; strengthens existing time-monotonicity refutation, not a separate conjecture."
+}
