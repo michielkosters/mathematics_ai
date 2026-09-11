@@ -55,5 +55,34 @@
       "SL(2,3)",
       "induced character"
     ]
+  },
+  {
+    "catalog_id": 2646,
+    "title": "Wilson's power-subgroup question",
+    "path": "problems/wilson-power-subgroup",
+    "scope": "Main universal assertion and p=2 case refuted; separate odd-prime question unresolved.",
+    "source": "https://alglog.org/21tkt.pdf",
+    "kind": "proof_or_certificate",
+    "original_problem_numbers": [
+      "Kourovka Notebook 21.137"
+    ],
+    "upstream_problem_number": "21.137",
+    "upstream_source_url": "https://alglog.org/21tkt.pdf",
+    "dataset": "https://huggingface.co/datasets/ulamai/UnsolvedMath",
+    "dataset_revision": "b9437975f3c873f635a13c48f8b022f5ba80898a",
+    "upstream_git_repository": "https://huggingface.co/datasets/ulamai/UnsolvedMath",
+    "result_repository": "https://github.com/michielkosters/mathematics_ai",
+    "novelty_checked": "2026-09-10",
+    "novelty_status": "No earlier resolution located; priority unconfirmed; two older full texts unchecked.",
+    "keywords": [
+      "L. Wilson",
+      "powerful p-group",
+      "power subgroup",
+      "squares form a subgroup",
+      "exponent eight",
+      "D8 wreath C2",
+      "SmallGroup(128,928)",
+      "Kourovka 21.137"
+    ]
   }
 ]

@@ -18,6 +18,7 @@ This table grows as we complete and verify solutions. It includes complete resol
 |---|---|---|---|
 | Time monotonicity in majority dynamics / the median process | Amir, Baldasso and Beilin, *Majority dynamics and the median process: connections, convergence and some new conjectures*, [arXiv:1911.08613v2, Conjectures 3.1 and 3.2](https://arxiv.org/html/1911.08613v2#S3) | Complete counterexample, with a cubic-graph strengthening. Novelty unestablished. | [Solution folder](problems/median-dynamics/README.md) |
 | Kida's semiabelian-group conjecture | Masanari Kida, [*On semiabelian groups*, Conjecture 1.3](https://doi.org/10.1515/jgth-2024-0010); [Kourovka Notebook 21.68](https://alglog.org/21tkt.pdf) | Complete counterexample of order 2592. No prior resolution found; priority unconfirmed. | [Proof and Sage verification](problems/kida-semiabelian/README.md) |
+| Wilson's power-subgroup question | L. Wilson, [Kourovka Notebook 21.137, p. 181](https://alglog.org/21tkt.pdf) | Main universal claim refuted by an order-128 group. Separate odd-prime question unresolved; novelty unconfirmed. | [Short proof and Python verification](problems/wilson-power-subgroup/README.md) |
 
 The two conjecture numbers for median dynamics are equivalent formulations of the same time-monotonicity claim. The result does not address the paper's separate convexity or convergence questions.
 
@@ -30,7 +31,7 @@ python -m pip install -r requirements.txt
 python verify_all.py
 ```
 
-The command above verifies the median-dynamics result; its certificates use
+The command above verifies the median-dynamics and Wilson results. Their numerical certificates use
 Python's standard library and SymPy supplies an independent symbolic derivation.
 To verify Kida's counterexample, use SageMath:
 
@@ -38,7 +39,7 @@ To verify Kida's counterexample, use SageMath:
 sage -python problems/kida-semiabelian/verify.py
 ~~~
 
-Both solutions have complete written proofs and exact computational checks.
+The listed claims have complete written proofs and exact computational checks.
 Scripts regenerate certificates beside the proofs. These are not Lean formalizations.
 
 ## Match a problem to its solution
@@ -47,6 +48,7 @@ Scripts regenerate certificates beside the proofs. These are not Lean formalizat
 |---|---|
 | UnsolvedMath `30004591`; `OWR-4990373-005`; [Oberwolfach Reports 2021/4](https://doi.org/10.4171/OWR/2021/4); arXiv:1911.08613v2, Conjectures 3.1/3.2 | [Median-dynamics time-monotonicity counterexample](problems/median-dynamics/README.md) |
 | UnsolvedMath 2577; Kourovka Notebook 21.68; Kida, Conjecture 1.3; DOI 10.1515/jgth-2024-0010 | [Semiabelian nonmonomial group of order 2592](problems/kida-semiabelian/README.md) |
+| UnsolvedMath 2646; Kourovka Notebook 21.137; L. Wilson; SmallGroup(128,928) | [Power-subgroup counterexample: D8 wr C2](problems/wilson-power-subgroup/README.md) |
 
 UnsolvedMath's numeric ID is an internal database key, not an original conjecture number. We retain the dataset key, original problem numbers, source URLs and search terms in [results.json](results.json) so researchers and other agents can match equivalent questions to our work.
 

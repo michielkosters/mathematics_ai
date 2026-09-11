@@ -1,0 +1,58 @@
+{
+  "construction": "D8 wr C2, where |D8|=8",
+  "group_order": 128,
+  "exponent": 8,
+  "square_count": 16,
+  "squares_form_subgroup": true,
+  "square_subgroup_exponent": 4,
+  "square_subgroup_abelian": false,
+  "noncommuting_square_roots": [
+    [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      1
+    ]
+  ],
+  "square_products": [
+    [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      0
+    ],
+    [
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      0
+    ]
+  ],
+  "scope": "Refutes the general powerful-subgroup assertion and its p=2 case; odd-prime question not settled."
+}
