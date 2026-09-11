@@ -24,5 +24,36 @@
       "stochastic domination",
       "cubic graph counterexample"
     ]
+  },
+  {
+    "catalog_id": 2577,
+    "title": "Kida's conjecture: semiabelian finite groups are monomial",
+    "path": "problems/kida-semiabelian",
+    "scope": "Complete counterexample of order 2592; no prior resolution found, priority unconfirmed.",
+    "source": "https://doi.org/10.1515/jgth-2024-0010",
+    "kind": "proof_or_certificate",
+    "original_problem_numbers": [
+      "Conjecture 1.3",
+      "Kourovka Notebook 21.68"
+    ],
+    "dataset": "https://huggingface.co/datasets/ulamai/UnsolvedMath",
+    "dataset_revision": "b9437975f3c873f635a13c48f8b022f5ba80898a",
+    "upstream_problem_number": "21.68",
+    "upstream_source_url": "https://alglog.org/21tkt.pdf",
+    "upstream_git_repository": "https://huggingface.co/datasets/ulamai/UnsolvedMath",
+    "result_repository": "https://github.com/michielkosters/mathematics_ai",
+    "novelty_checked": "2026-09-10",
+    "novelty_status": "No prior resolution found; priority unconfirmed",
+    "keywords": [
+      "Masanari Kida",
+      "semiabelian",
+      "semi-abelian",
+      "monomial",
+      "nonmonomial",
+      "2592",
+      "Kourovka 21.68",
+      "SL(2,3)",
+      "induced character"
+    ]
   }
 ]
