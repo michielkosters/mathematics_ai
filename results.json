@@ -124,5 +124,40 @@
       "Mathieu",
       "Kourovka 21.42"
     ]
+  },
+  {
+    "dataset": "https://huggingface.co/datasets/ulamai/UnsolvedMath",
+    "dataset_revision": "b9437975f3c873f635a13c48f8b022f5ba80898a",
+    "upstream_git_repository": "https://huggingface.co/datasets/ulamai/UnsolvedMath",
+    "result_repository": "https://github.com/michielkosters/mathematics_ai",
+    "catalog_id": 2641,
+    "title": "Golod construction of an infinite residually finite p-group with nontrivial finite centre",
+    "path": "problems/golod-finite-centre",
+    "scope": "For every prime p: infinite, at most four generators, residually finite, torsion p-group, centre C_p. Existence construction using a maximal homogeneous ideal; no computable presentation asserted.",
+    "source": "https://alglog.org/21tkt.pdf",
+    "kind": "proof_from_existing_theorems",
+    "original_problem_numbers": [
+      "Kourovka Notebook 21.132"
+    ],
+    "upstream_problem_number": "KOU-21.132",
+    "upstream_source_url": "https://alglog.org/21tkt.pdf",
+    "novelty_status": "Built on classical results; novelty unestablished; no priority claimed.",
+    "novelty_checked": "2026-09-12",
+    "verification": "problems/golod-finite-centre/verification.md",
+    "references": [
+      "https://www.mathnet.ru/im2956",
+      "https://m.mathnet.ru/php/archive.phtml?jrnid=al&option_lang=eng&paperid=144&wshow=paper"
+    ],
+    "keywords": [
+      "Golod group",
+      "nontrivial finite centre",
+      "nontrivial finite center",
+      "residually finite",
+      "torsion p-group",
+      "four generators",
+      "graded nil algebra",
+      "Timofeenko",
+      "Kourovka 21.132"
+    ]
   }
 ]
