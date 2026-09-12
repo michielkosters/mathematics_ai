@@ -17,3 +17,5 @@ for script in scripts:
 print('PASS: 4 Python scripts for the median-dynamics and Wilson results.')
 print('Kida verification requires Sage: sage -python problems/kida-semiabelian/verify.py')
 print('These checks do not establish novelty.')
+
+print('Self-similarity: deductive verification in problems/three-generator-self-similarity/verification.md (not checked by this script).')

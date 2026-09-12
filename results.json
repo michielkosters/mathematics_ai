@@ -84,5 +84,45 @@
       "SmallGroup(128,928)",
       "Kourovka 21.137"
     ]
+  },
+  {
+    "catalog_id": 2551,
+    "title": "Three-generated torsion-free nilpotent groups of class three are self-similar",
+    "path": "problems/three-generator-self-similarity",
+    "scope": "Complete negative answer to the existence question, deduced from established theorems; no novelty claimed.",
+    "source": "https://alglog.org/21tkt.pdf",
+    "kind": "proof_from_existing_theorems",
+    "original_problem_numbers": [
+      "Kourovka Notebook 21.42",
+      "Berlatto–Gentil Problem 1"
+    ],
+    "upstream_problem_number": "KOU-21.42",
+    "upstream_source_url": "https://arxiv.org/html/2509.16947v1",
+    "dataset": "https://huggingface.co/datasets/ulamai/UnsolvedMath",
+    "dataset_revision": "b9437975f3c873f635a13c48f8b022f5ba80898a",
+    "upstream_git_repository": "https://huggingface.co/datasets/ulamai/UnsolvedMath",
+    "result_repository": "https://github.com/michielkosters/mathematics_ai",
+    "novelty_status": "No new theorem or priority for the implication claimed.",
+    "verification": "problems/three-generator-self-similarity/verification.md",
+    "references": [
+      "https://doi.org/10.1081/AGB-120024857",
+      "https://www.tmna.ncu.pl/static/published/2016/v47n1-18.pdf",
+      "https://arxiv.org/html/2101.11291v1"
+    ],
+    "keywords": [
+      "self-similar",
+      "three-generated",
+      "torsion-free nilpotent",
+      "class three",
+      "positive grading",
+      "Malcev Lie algebra",
+      "Dantas",
+      "Sidki",
+      "Dekimpe",
+      "Igodt",
+      "Pouseele",
+      "Mathieu",
+      "Kourovka 21.42"
+    ]
   }
 ]
