@@ -225,5 +225,43 @@
       "polynomial factor",
       "OWR 2008/44 Problem 9"
     ]
+  },
+  {
+    "catalog_id": 10400226,
+    "title": "Shinohara: knots with determinant 4k+1 and signature four",
+    "path": "problems/shinohara-determinant-signature",
+    "scope": "Complete affirmative deduction for all n>1 congruent to1 modulo4; the constructed knots have genus2. No claim of prime, alternating or fibered knots.",
+    "source": "https://msp.org/gtm/2002/04/gtm-2002-04-024s.pdf#page=168",
+    "kind": "proof_from_existing_theorems",
+    "original_problem_numbers": [
+      "Ohtsuki Problem 12.21",
+      "Stoimenow Question 5.1"
+    ],
+    "upstream_problem_number": "AMR-103-0226",
+    "upstream_source_url": "https://msp.org/gtm/2002/04/gtm-2002-04-024s.pdf#page=168",
+    "dataset": "https://huggingface.co/datasets/ulamai/UnsolvedMath",
+    "dataset_revision": "b9437975f3c873f635a13c48f8b022f5ba80898a",
+    "upstream_git_repository": "https://huggingface.co/datasets/ulamai/UnsolvedMath",
+    "result_repository": "https://github.com/michielkosters/mathematics_ai",
+    "novelty_status": "Novelty unconfirmed; independent review and formal verification outstanding.",
+    "novelty_checked": "2026-09-13",
+    "verification": "problems/shinohara-determinant-signature/verify_sage.py",
+    "references": [
+      "https://doi.org/10.4064/aa129-4-6",
+      "https://www-fourier.univ-grenoble-alpes.fr/~peters/Books/QuadraticForms/QuadForms.pdf",
+      "https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1970.2/ICM1970.2.ocr.pdf"
+    ],
+    "keywords": [
+      "Y. Shinohara",
+      "knot determinant",
+      "signature four",
+      "genus two",
+      "Nikulin",
+      "even lattice",
+      "Brown invariant",
+      "quadratic Gauss sum",
+      "Seifert matrix",
+      "Ohtsuki Problem 12.21"
+    ]
   }
 ]

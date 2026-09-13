@@ -24,3 +24,5 @@ print('Self-similarity: deductive verification in problems/three-generator-self-
 print('Golod finite centre: deductive verification in problems/golod-finite-centre/verification.md (not checked by this script).')
 
 print("Heisenberg non-concise formula: sage -python problems/heisenberg-nonconcise-formula/verify_sage.py (supporting checks; see written proof).")
+
+print("Shinohara: sage -python problems/shinohara-determinant-signature/verify_sage.py (exact supporting checks; see written proof).")
