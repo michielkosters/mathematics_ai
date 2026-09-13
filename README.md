@@ -22,6 +22,7 @@ This table grows as we complete and verify solutions. It includes complete resol
 | Three-generated torsion-free nilpotent groups of class three: self-similarity | A. Dantas and S. Sidki, [Kourovka Notebook 21.42](https://alglog.org/21tkt.pdf); Berlatto–Gentil, [arXiv:2509.16947v1, Problem 1](https://arxiv.org/html/2509.16947v1) | Every such group is self-similar. Complete consequence of established theorems; no novelty claimed. | [Short proof](problems/three-generator-self-similarity/README.md) and [verification](problems/three-generator-self-similarity/verification.md) |
 | Golod construction with a nontrivial finite centre | A. V. Timofeenko, [Kourovka Notebook 21.132, p. 180](https://alglog.org/21tkt.pdf) | For every prime p, an infinite residually finite torsion p-group with at most four generators and centre C_p. Built from classical results; novelty unestablished. | [Complete proof](problems/golod-finite-centre/README.md) and [verification](problems/golod-finite-centre/verification.md) |
 | Conciseness of parameter-free first-order group formulas | M. Petschick, [Kourovka Notebook 21.106](https://alglog.org/21tkt.pdf); Conte–Petschick, [*Conciseness of first-order formulae*, Question 1](https://doi.org/10.1007/s00605-025-02127-5) | Complete counterexample in the integer Heisenberg group: two formula values generate an infinite cyclic subgroup. Novelty unconfirmed. | [Simple proof and Sage verification](problems/heisenberg-nonconcise-formula/README.md) |
+| Permanents of doubly stochastic matrices with bounded Frobenius norm | Alexander Barvinok and Alex Samorodnitsky, [OWR 44/2008, Problem 9, pp. 2549–2550](https://ems.press/content/serial-article-files/46191?nt=1#page=73); [DOI](https://doi.org/10.4171/OWR/2008/44) | Complete affirmative answer: per(A) ≤ exp(−n)(en)^(64γ) when sum a_ij² ≤ γ. Novelty unconfirmed. | [Complete entropy proof and verification](problems/permanent-bounded-frobenius/README.md) |
 
 The two conjecture numbers for median dynamics are equivalent formulations of the same time-monotonicity claim. The result does not address the paper's separate convexity or convergence questions.
 
@@ -34,7 +35,7 @@ python -m pip install -r requirements.txt
 python verify_all.py
 ```
 
-The command above verifies the median-dynamics and Wilson results. Their numerical certificates use
+The command above verifies the median-dynamics and Wilson results and runs supporting checks for the permanent bound. Their numerical certificates use
 Python's standard library and SymPy supplies an independent symbolic derivation.
 To verify Kida's counterexample, use SageMath:
 
@@ -47,6 +48,7 @@ The self-similarity result has a short proof from established theorems and a
 [source-by-source verification](problems/three-generator-self-similarity/verification.md); it needs no computation.
 The Golod finite-centre construction has a [deductive verification guide](problems/golod-finite-centre/verification.md); finite computations do not certify this infinite-group existence proof.
 For the Heisenberg formula, run `sage -python problems/heisenberg-nonconcise-formula/verify_sage.py` for supporting symbolic checks; the written proof establishes the infinite-group conclusion.
+For the permanent bound, `python problems/permanent-bounded-frobenius/verify.py` enumerates exact rational examples and checks logarithmic inequalities at 60-digit precision. The written proof establishes the universal statement; the numerical checks do not.
 Computational scripts regenerate certificates beside the corresponding proofs. These are not Lean formalizations.
 
 ## Match a problem to its solution
@@ -59,6 +61,7 @@ Computational scripts regenerate certificates beside the corresponding proofs. T
 | UnsolvedMath 2551; KOU-21.42; Kourovka Notebook 21.42; Dantas–Sidki; arXiv:2509.16947v1, Problem 1 | [Three-generated class-three groups are self-similar](problems/three-generator-self-similarity/README.md) |
 | UnsolvedMath 2641; KOU-21.132; Kourovka Notebook 21.132; A. V. Timofeenko; Golod group with nontrivial finite centre | [Golod construction with centre C_p](problems/golod-finite-centre/README.md) |
 | UnsolvedMath 2615; KOU-21.106; Kourovka Notebook 21.106; Conte–Petschick Question 1; DOI 10.1007/s00605-025-02127-5; arXiv:2505.01411 | [Non-concise formula in UT3(Z)](problems/heisenberg-nonconcise-formula/README.md) |
+| UnsolvedMath 30001073; OWR 44/2008 Problem 9; DOI 10.4171/OWR/2008/44; Barvinok–Samorodnitsky; permanent with bounded Frobenius norm | [Polynomial-factor permanent bound](problems/permanent-bounded-frobenius/README.md) |
 
 UnsolvedMath's numeric ID is an internal database key, not an original conjecture number. We retain the dataset key, original problem numbers, source URLs and search terms in [results.json](results.json) so researchers and other agents can match equivalent questions to our work.
 

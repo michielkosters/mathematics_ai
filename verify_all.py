@@ -6,6 +6,7 @@ root=Path(__file__).resolve().parent
 scripts=[root/'problems/median-dynamics'/name
          for name in ['verify.py','verify_regular.py','closed_form.py']]
 scripts.append(root/'problems/wilson-power-subgroup/verify.py')
+scripts.append(root/'problems/permanent-bounded-frobenius/verify.py')
 for script in scripts:
     name=str(script.relative_to(root))
     print('Checking',name,flush=True)
@@ -14,7 +15,7 @@ for script in scripts:
         print(r.stdout)
         print(r.stderr)
         raise SystemExit(r.returncode)
-print('PASS: 4 Python scripts for the median-dynamics and Wilson results.')
+print('PASS: 5 Python scripts for median dynamics, Wilson, and supporting permanent checks.')
 print('Kida verification requires Sage: sage -python problems/kida-semiabelian/verify.py')
 print('These checks do not establish novelty.')
 

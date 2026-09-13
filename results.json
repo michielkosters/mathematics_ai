@@ -196,5 +196,34 @@
       "Jan Moritz Petschick",
       "Kourovka 21.106"
     ]
+  },
+  {
+    "catalog_id": 30001073,
+    "title": "Permanent of doubly stochastic matrices with bounded Frobenius norm",
+    "path": "problems/permanent-bounded-frobenius",
+    "scope": "Complete affirmative answer to OWR44/2008 Problem9. Unrelated Problem10 bundled in the catalog record is not resolved.",
+    "source": "https://doi.org/10.4171/OWR/2008/44",
+    "kind": "proof_or_certificate",
+    "original_problem_numbers": [
+      "OWR 44/2008, Problem 9, pp. 2549–2550"
+    ],
+    "upstream_source_url": "https://ems.press/content/serial-article-files/46191?nt=1#page=73",
+    "dataset": "https://huggingface.co/datasets/ulamai/UnsolvedMath",
+    "dataset_revision": "b9437975f3c873f635a13c48f8b022f5ba80898a",
+    "upstream_git_repository": "https://huggingface.co/datasets/ulamai/UnsolvedMath",
+    "result_repository": "https://github.com/michielkosters/mathematics_ai",
+    "novelty_status": "Novelty unconfirmed; not independently refereed or formally verified.",
+    "novelty_checked": "2026-09-13",
+    "verification": "problems/permanent-bounded-frobenius/verify.py",
+    "keywords": [
+      "Alexander Barvinok",
+      "Alex Samorodnitsky",
+      "permanent",
+      "doubly stochastic matrix",
+      "bounded Frobenius norm",
+      "entropy bound",
+      "polynomial factor",
+      "OWR 2008/44 Problem 9"
+    ]
   }
 ]

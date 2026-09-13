@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "matrices": 56,
+  "sizes": "1..7",
+  "scalar_checks": 13130,
+  "decimal_precision": 60,
+  "exact": "rational permanents and permutation marginals",
+  "limitation": "logarithmic checks are numerical; universal proof is README.md"
+}
