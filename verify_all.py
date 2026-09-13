@@ -21,3 +21,5 @@ print('These checks do not establish novelty.')
 print('Self-similarity: deductive verification in problems/three-generator-self-similarity/verification.md (not checked by this script).')
 
 print('Golod finite centre: deductive verification in problems/golod-finite-centre/verification.md (not checked by this script).')
+
+print("Heisenberg non-concise formula: sage -python problems/heisenberg-nonconcise-formula/verify_sage.py (supporting checks; see written proof).")

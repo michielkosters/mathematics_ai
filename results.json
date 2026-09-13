@@ -159,5 +159,42 @@
       "Timofeenko",
       "Kourovka 21.132"
     ]
+  },
+  {
+    "catalog_id": 2615,
+    "title": "A non-concise parameter-free first-order formula in the integer Heisenberg group",
+    "path": "problems/heisenberg-nonconcise-formula",
+    "scope": "Complete negative answer: exactly two formula values generate the infinite cyclic centre of UT3(Z), a residually finite group.",
+    "source": "https://doi.org/10.1007/s00605-025-02127-5",
+    "kind": "proof_or_certificate",
+    "original_problem_numbers": [
+      "Kourovka Notebook 21.106",
+      "Conte-Petschick Question 1"
+    ],
+    "upstream_problem_number": "KOU-21.106",
+    "upstream_source_url": "https://alglog.org/21tkt.pdf",
+    "dataset": "https://huggingface.co/datasets/ulamai/UnsolvedMath",
+    "dataset_revision": "b9437975f3c873f635a13c48f8b022f5ba80898a",
+    "upstream_git_repository": "https://huggingface.co/datasets/ulamai/UnsolvedMath",
+    "result_repository": "https://github.com/michielkosters/mathematics_ai",
+    "novelty_status": "No earlier resolution located; novelty unconfirmed. No independent review yet.",
+    "novelty_checked": "2026-09-13",
+    "verification": "problems/heisenberg-nonconcise-formula/verify_sage.py",
+    "references": [
+      "https://d-nb.info/1387927140/34",
+      "https://arxiv.org/abs/2505.01411"
+    ],
+    "keywords": [
+      "conciseness",
+      "first-order formula",
+      "parameter-free",
+      "residually finite",
+      "integer Heisenberg group",
+      "UT3(Z)",
+      "nilpotent class two",
+      "Martina Conte",
+      "Jan Moritz Petschick",
+      "Kourovka 21.106"
+    ]
   }
 ]

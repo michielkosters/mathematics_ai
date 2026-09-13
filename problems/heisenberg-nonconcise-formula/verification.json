@@ -1,0 +1,7 @@
+{
+  "symbolic_commutator": true,
+  "both_factorizations": true,
+  "both_central_generator_values": true,
+  "primitive_kernel_sample_checks": 9680,
+  "full_result_basis": "Deductive proof in README.md; not finite enumeration"
+}
