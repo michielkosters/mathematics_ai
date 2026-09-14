@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "exact_polynomial_checks": [
+    {
+      "degree": 2,
+      "eigenvalue": "-1/2",
+      "passed": true
+    },
+    {
+      "degree": 4,
+      "eigenvalue": "3/8",
+      "passed": true
+    },
+    {
+      "degree": 6,
+      "eigenvalue": "-5/16",
+      "passed": true
+    },
+    {
+      "degree": 8,
+      "eigenvalue": "35/128",
+      "passed": true
+    },
+    {
+      "degree": 10,
+      "eigenvalue": "-63/256",
+      "passed": true
+    },
+    {
+      "degree": 12,
+      "eigenvalue": "231/1024",
+      "passed": true
+    },
+    {
+      "degree": 14,
+      "eigenvalue": "-429/2048",
+      "passed": true
+    },
+    {
+      "degree": 16,
+      "eigenvalue": "6435/32768",
+      "passed": true
+    },
+    {
+      "degree": 18,
+      "eigenvalue": "-12155/65536",
+      "passed": true
+    },
+    {
+      "degree": 20,
+      "eigenvalue": "46189/262144",
+      "passed": true
+    },
+    {
+      "degree": 22,
+      "eigenvalue": "-88179/524288",
+      "passed": true
+    },
+    {
+      "degree": 24,
+      "eigenvalue": "676039/4194304",
+      "passed": true
+    }
+  ],
+  "k100_ratio": "11318564332012910145675522134685520484313073709426667105165/200867255532373784442745261542645325315275374222849104412672",
+  "k100_ratio_less_than_1_over_17": true,
+  "scope": "Supporting identities only; universal proof is in README.md."
+}

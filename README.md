@@ -24,6 +24,7 @@ This table grows as we complete and verify solutions. It includes complete resol
 | Conciseness of parameter-free first-order group formulas | M. Petschick, [Kourovka Notebook 21.106](https://alglog.org/21tkt.pdf); Conte–Petschick, [*Conciseness of first-order formulae*, Question 1](https://doi.org/10.1007/s00605-025-02127-5) | Complete counterexample in the integer Heisenberg group: two formula values generate an infinite cyclic subgroup. Novelty unconfirmed. | [Simple proof and Sage verification](problems/heisenberg-nonconcise-formula/README.md) |
 | Permanents of doubly stochastic matrices with bounded Frobenius norm | Alexander Barvinok and Alex Samorodnitsky, [OWR 44/2008, Problem 9, pp. 2549–2550](https://ems.press/content/serial-article-files/46191?nt=1#page=73); [DOI](https://doi.org/10.4171/OWR/2008/44) | Complete affirmative answer: per(A) ≤ exp(−n)(en)^(64γ) when sum a_ij² ≤ γ. Novelty unconfirmed. | [Complete entropy proof and verification](problems/permanent-bounded-frobenius/README.md) |
 | Shinohara’s determinant and signature question | Y. Shinohara, [Ohtsuki Problem 12.21](https://msp.org/gtm/2002/04/gtm-2002-04-024s.pdf#page=168); Stoimenow, [Question 5.1](https://doi.org/10.4064/aa129-4-6) | Complete affirmative deduction: every n = 4k+1 > 1 occurs for a genus-two knot of signature 4. Uses classical lattice and Seifert realization theorems; novelty unconfirmed, independent review pending. | [Proof and exact Sage verification](problems/shinohara-determinant-signature/README.md) |
+| Reverse Wasserstein bound for the spherical Radon transform | Benjamin K. Stephens, [*Measuring the Geodesic Radon Transform with Mass Transport*, OWR 31/2008, p. 1763](https://ems.press/content/serial-article-files/46174#page=57); [DOI](https://doi.org/10.4171/OWR/2008/31) | Complete negative answer; failure persists for smooth positive even densities on S^2 for every finite p >= 1. Classical ingredients; novelty unconfirmed, independent review pending. | [Proof and exact Sage checks](problems/spherical-radon-reverse-wasserstein/README.md) |
 
 The two conjecture numbers for median dynamics are equivalent formulations of the same time-monotonicity claim. The result does not address the paper's separate convexity or convergence questions.
 
@@ -51,6 +52,7 @@ The Golod finite-centre construction has a [deductive verification guide](proble
 For the Heisenberg formula, run `sage -python problems/heisenberg-nonconcise-formula/verify_sage.py` for supporting symbolic checks; the written proof establishes the infinite-group conclusion.
 For the permanent bound, `python problems/permanent-bounded-frobenius/verify.py` enumerates exact rational examples and checks logarithmic inequalities at 60-digit precision. The written proof establishes the universal statement; the numerical checks do not.
 For Shinohara’s question, run `sage -python problems/shinohara-determinant-signature/verify_sage.py` for exact Gauss-sum and Seifert-matrix checks. The written proof supplies the universal existence argument.
+For the spherical Radon transform, run `sage -python problems/spherical-radon-reverse-wasserstein/verify_sage.py` for exact polynomial identity checks. The written transport argument proves the failure of a uniform reverse bound.
 Computational scripts regenerate certificates beside the corresponding proofs. These are not Lean formalizations.
 
 ## Match a problem to its solution
@@ -65,6 +67,7 @@ Computational scripts regenerate certificates beside the corresponding proofs. T
 | UnsolvedMath 2615; KOU-21.106; Kourovka Notebook 21.106; Conte–Petschick Question 1; DOI 10.1007/s00605-025-02127-5; arXiv:2505.01411 | [Non-concise formula in UT3(Z)](problems/heisenberg-nonconcise-formula/README.md) |
 | UnsolvedMath 30001073; OWR 44/2008 Problem 9; DOI 10.4171/OWR/2008/44; Barvinok–Samorodnitsky; permanent with bounded Frobenius norm | [Polynomial-factor permanent bound](problems/permanent-bounded-frobenius/README.md) |
 | UnsolvedMath 10400226; AMR-103-0226; Shinohara; Ohtsuki Problem 12.21; Stoimenow Question 5.1; DOI 10.4064/aa129-4-6; determinant 4k+1 and signature four | [Genus-two knots with prescribed determinant](problems/shinohara-determinant-signature/README.md) |
+| UnsolvedMath 30000999; OWR-2042-008; Benjamin K. Stephens; OWR 31/2008 p. 1763; DOI 10.4171/OWR/2008/31; inverse Funk transform Wasserstein stability | [No uniform reverse Wasserstein bound](problems/spherical-radon-reverse-wasserstein/README.md) |
 
 UnsolvedMath's numeric ID is an internal database key, not an original conjecture number. We retain the dataset key, original problem numbers, source URLs and search terms in [results.json](results.json) so researchers and other agents can match equivalent questions to our work.
 

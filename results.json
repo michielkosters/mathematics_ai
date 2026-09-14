@@ -263,5 +263,34 @@
       "Seifert matrix",
       "Ohtsuki Problem 12.21"
     ]
+  },
+  {
+    "catalog_id": 30000999,
+    "title": "No uniform reverse Wasserstein bound for the spherical Radon transform",
+    "path": "problems/spherical-radon-reverse-wasserstein",
+    "scope": "Complete negative answer to the stated unrestricted inequality, all n>=2 and finite p>=1. Stronger failure on S^2 for smooth positive even densities, every finite p>=1.",
+    "source": "https://ems.press/content/serial-article-files/46174#page=57",
+    "kind": "proof_from_existing_theorems",
+    "original_problem_numbers": [
+      "Final question in Stephens report, OWR 31/2008, p. 1763 (unnumbered)"
+    ],
+    "upstream_problem_number": "OWR-2042-008",
+    "upstream_source_url": "https://doi.org/10.4171/OWR/2008/31",
+    "dataset": "https://huggingface.co/datasets/ulamai/UnsolvedMath",
+    "dataset_revision": "b9437975f3c873f635a13c48f8b022f5ba80898a",
+    "upstream_git_repository": "https://huggingface.co/datasets/ulamai/UnsolvedMath",
+    "result_repository": "https://github.com/michielkosters/mathematics_ai",
+    "novelty_status": "Classical ingredients; novelty unconfirmed; independent review pending.",
+    "verification": "problems/spherical-radon-reverse-wasserstein/verify_sage.py",
+    "keywords": [
+      "Benjamin K. Stephens",
+      "Measuring the Geodesic Radon Transform with Mass Transport",
+      "spherical Radon transform",
+      "Funk transform",
+      "reverse Wasserstein inequality",
+      "inverse stability",
+      "smooth even densities",
+      "Legendre polynomials"
+    ]
   }
 ]
