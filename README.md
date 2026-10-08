@@ -28,6 +28,15 @@ This table grows as we complete and verify solutions. It includes complete resol
 
 The two conjecture numbers for median dynamics are equivalent formulations of the same time-monotonicity claim. The result does not address the paper's separate convexity or convergence questions.
 
+## Conditional research witnesses
+
+These records contain reproducible finite checks and proposed proofs with
+explicit outstanding hypotheses. They are separate from the completed solutions.
+
+| Problem | Witness | Scope | Proof and verification |
+|---|---|---|---|
+| OpenAI math #109: integer multiplication | Proposed kappa = 609/10^12 = 6.09e-10 | Conditional; full motif-to-tape transfer and precision integration unverified. Novelty unestablished. | [Witness and proof](problems/integer-multiplication-109/README.md); `python problems/integer-multiplication-109/verify.py` |
+
 ## Verify the solutions
 
 Use Python 3.10 or later:

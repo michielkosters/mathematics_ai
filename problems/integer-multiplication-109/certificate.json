@@ -1,0 +1,106 @@
+{
+  "status": "conditional research candidate; complete upstream integration unverified",
+  "kappa": "609/1000000000000",
+  "kappa_decimal": "6.09E-10",
+  "ratio_to_community": "609/83",
+  "complex": {
+    "h": 26,
+    "disjoint_additions": 71530,
+    "disjoint_outputs": 12424,
+    "split_outputs": 2600,
+    "intersection_two_roles": 29250,
+    "roles": 113204,
+    "wires": 1566021600000,
+    "saving": 7733440000,
+    "complex_saving_lower": "2.8745494655860578362449602515573107018674713415876742323641437514E-8",
+    "complex_saving_upper": "2.8745494655860578362449602551400858845165411562653460562742109794E-8",
+    "status": "local circuit/frame checks; full transfer and precision integration pending",
+    "verification": {
+      "all_disjoint_coefficients_exact": true,
+      "coordinate_frame_residuals_nonalternating": true
+    }
+  },
+  "bit": {
+    "h": 50,
+    "roles": 494250,
+    "additions": 435450,
+    "merged": 55200,
+    "wires": 394839648000000,
+    "saving": 1767136000000,
+    "bit_saving_lower": "3.0508198139020082527642801370880303681975611428216592757475822158E-9",
+    "bit_saving_upper": "3.0508198139020082527642801370890331429321349452168307769970534386E-9",
+    "verification": {
+      "h": 50,
+      "all_additions_disjoint": true,
+      "all_partial_outputs_exact": true,
+      "roles": 494250
+    },
+    "frames": {
+      "roles": 494250,
+      "forward_frames_nested": true,
+      "reverse_complement_frames_nested": true,
+      "nondegeneracy": "Every source span has a common point; its orthogonal complement is nondegenerate."
+    }
+  },
+  "parameters": {
+    "tau": "19999999939/20000000000",
+    "sigma": "49999998563/50000000000",
+    "epsilon": "1999/10000",
+    "c": "1",
+    "lam": "999999996951/1000000000000",
+    "lamp": "124999999619/125000000000",
+    "kappa": "609/1000000000000",
+    "beta": "1/1000",
+    "delta": "1/1000000",
+    "C1": "49961/10000"
+  },
+  "slacks": {
+    "tau_positive": "19999999939/20000000000",
+    "tau_below_one": "61/20000000000",
+    "sigma_positive": "49999998563/50000000000",
+    "sigma_below_one": "1437/50000000000",
+    "c_positive": "1",
+    "epsilon_positive": "1999/10000",
+    "beta_positive": "1/1000",
+    "beta_below_one": "999/1000",
+    "lambda_above_tau": "1/1000000000000",
+    "lambda_above_sigma": "25691/1000000000000",
+    "lambda_below_one": "3049/1000000000000",
+    "packed_overhead": "1/1000000000000",
+    "lambda_prime_above_lambda": "1/1000000000000",
+    "leaf_cost": "1283163/50000000000000",
+    "lambda_prime_below_one": "381/125000000000",
+    "guard_width": "127961/100000000",
+    "dimension_upper_bound": "4003/30000",
+    "crt_layout": "488061/200000000000000",
+    "gaussian_cost": "31/250000",
+    "prefix_cost": "3001/5000",
+    "scalar_cost": "800099/1000000",
+    "delta_positive": "1/1000000",
+    "delta_below_one_eighth": "124999/1000000",
+    "prime_interval_growth": "3001/5000",
+    "alpha_below_sqrt_p": "8001/40000",
+    "gamma_sublinear": "4003/20000",
+    "K_smaller_than_ell": "3001/5000",
+    "K_dominates_log_p": "1999/10000",
+    "r_superpolynomial": "8001/10000",
+    "kappa_positive": "609/1000000000000",
+    "reserved_axes": "124999999619/125000000000"
+  },
+  "margins": {
+    "g1": "3001/5000",
+    "g2": "121939/200000000000000",
+    "g3": "761619/1250000000000000",
+    "g4": "488061/200000000000000",
+    "g5": "31/250000",
+    "g6": "800099/1000000",
+    "g7": "1999/10000"
+  },
+  "scoped_bit_ceiling": "15254099069510041263821400685445165714660674726084153884985267193/25000000000000000000000000000000000000000000000000000000000000000000000000",
+  "guard_size_hypothesis_checked": true,
+  "unresolved": [
+    "Complete motif-to-tape transfer and precision guard integration",
+    "Independent mathematical review",
+    "Global novelty clearance"
+  ]
+}

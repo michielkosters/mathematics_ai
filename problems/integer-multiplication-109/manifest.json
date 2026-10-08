@@ -1,0 +1,23 @@
+{
+  "sha256": {
+    "aligned_bit_circuit.py": "485fd625cc3887cc1d2d21e369e9db5bccc564f5e4ea479a1c20fdb3398cb0a7",
+    "center.md": "8a5e0eac41b7a59ca4ea5c5f847693a80a4d145e667df3c6ac7c5accc23bfb4b",
+    "certificate.json": "948a0a03c896b51c4b26805a57bfdb27c250fdb0346ae3ed7a6247f92101ce5d",
+    "hypergraph_complex.py": "c4374c421348cb4c506a64e71184a40c60ee473bb2f6aefc1759a86776f1af79",
+    "optimize_fourier.py": "b7f19609f7c665308488a2c2578a5a5ec34d6d2c0c096b818bcd0aa05cb9f121",
+    "proof.md": "76695ac71612043243c092e7579db8924a85be2f0d456c2e013a20546e41cc07",
+    "README.md": "b0e37587f012641b617032367c5010fe6da32d68e68a8a509fc737253abe6113",
+    "SOURCES.md": "97a1f803a306b51ecb32cebe2345bf589c4423eefa6b9a611750b5a36ef0949f",
+    "stage-joins.md": "babc3628116c8f384368c72ff0385461570d767a05b2eb098c11473628e844ab",
+    "test_witness.py": "e05760aae3723f085d0f2890556d01314c9aaf704ecc0928b6b3456206805926",
+    "vendor/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/certify.py": "2348d95008276c5d5764f7e028c3918e484582cd589bd4d9b82919161745e53e",
+    "vendor/exclusion_circuit.py": "b253f9d7318becda1c1f3b24e2287ed44a9c27fcea00cf9d531afb950d0457a0",
+    "vendor/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "vendor/paired_exclusion_circuit.py": "8f05f04cf06217befd6d0ee0f2d7d0c5c5eb32cfab8c9a8ca7917fd6d620b7d2",
+    "vendor/shared_point_circuit.py": "c9bb7a5df92d260a4e3ad532b53e26936730d7c93f7facfb0784957c1e81c8ba",
+    "verification.md": "47a3b99dad2a9dc25d70435d0daabb2f64ff619242681b740404e4f13c010857",
+    "verify.py": "0faa2a503f2a841eb0a09b4bf03c29a97b6b52b747cffcc5ca9c7406f3f21101",
+    "witness.py": "b21ccde2318f95c0b0405df13d67c64ab54bf056eccfb6774f5aaa9859423b9d"
+  }
+}

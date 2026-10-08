@@ -28,3 +28,6 @@ print("Heisenberg non-concise formula: sage -python problems/heisenberg-nonconci
 print("Shinohara: sage -python problems/shinohara-determinant-signature/verify_sage.py (exact supporting checks; see written proof).")
 
 print("Spherical Radon transform: sage -python problems/spherical-radon-reverse-wasserstein/verify_sage.py (exact supporting identities; see written proof).")
+
+print("Checking conditional integer multiplication #109 witness",flush=True)
+subprocess.run([sys.executable,str(root/'problems/integer-multiplication-109/verify.py')],cwd=root,check=True,timeout=120)

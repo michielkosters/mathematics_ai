@@ -292,5 +292,27 @@
       "smooth even densities",
       "Legendre polynomials"
     ]
+  },
+  {
+    "catalog_id": "openai-math-109",
+    "title": "Integer multiplication: conditional kappa=6.09e-10 witness",
+    "path": "problems/integer-multiplication-109",
+    "kind": "conditional_witness",
+    "scope": "Exact finite circuit and arithmetic checks. Full motif/tape/precision integration unverified; not a proved multiplication record.",
+    "source": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Integer-multiplication-below-n-log-n-September-23-2026",
+    "upstream_problem_number": "109",
+    "upstream_git_repository": "https://github.com/openai/math",
+    "result_repository": "https://github.com/michielkosters/mathematics_ai",
+    "witness": {
+      "kappa": "609/1000000000000",
+      "status": "conditional research candidate"
+    },
+    "novelty_status": "Unestablished; community construction and monotone-summation prior art credited",
+    "keywords": [
+      "integer multiplication",
+      "Fourier circuits",
+      "weighted hypergraphs",
+      "conditional witness"
+    ]
   }
 ]
